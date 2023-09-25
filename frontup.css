@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
+
+
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    position: center;
+    top:30px;
+    letter-spacing: 12px;
+    font-weight: bold 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Staatliches', cursive;
+
+}
+.sign
+{
+    position: absolute;
+    right:50px;
+    top: 30px;
+    background-color:transparent;
+    background-size:0px;
+    border: 0px;
+    font-size: 15px;
+    border-radius : 4px;
+    cursor: pointer;
+    color: white;
+    padding:5px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+.login
+{
+    position: absolute;
+    right:140px;
+    top: 30px;
+    background-color:transparent;
+    background-blend-mode: overlay;
+    border:0px;
+    border-radius : 6px;
+    cursor: pointer;
+    font-size: 15px;
+    padding:5px;
+    color:white;
+    font-weight: bold;
+    text-underline-offset: 0px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.download:hover, .sign:hover,.login:hover{
+    background-color: red;
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red, 0 0 200px red;
+    transform: scale(0.96);
+}
+.info
+{
+    color: white;
+    position:absolute;
+    font-size: 50px;
+    top :230px;
+    left :450px;
+    font-family: tahoma;
+    
+    border-radius: 10px;
+}
+.q{
+    color: white;
+    position:absolute;
+    font-size: 50px;
+    top :290px;
+    left :450px;
+    font-family: tahoma;
+    border-radius: 10px;
+}
+.download{
+    position:absolute;
+    top: 420px;
+    left:700px;
+    color: white;
+    padding:10px;
+    background-color: transparent;
+    border:0px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding:6px;
+    border-radius: 6px;
+    transform:all 0.2 ease;
+}
+small{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom:10px;
+    right: 550px;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}

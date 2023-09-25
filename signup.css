@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    color:red;
+}
+body{
+    background:black;
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    width:25rem;
+    height:28rem;
+    padding:30px;
+    background-color:white;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 10px;
+    margin-top:10px;
+}
+input{
+    margin-top:8px;
+    border: none;
+    outline:none;
+    color:black;
+    border-bottom: 1px solid red;
+    width:90%;
+    margin-left: 10px;
+    font-weight: bold;
+
+
+}
+label{
+    margin-left: 10px;
+    margin-top:10px;
+
+}
+button{
+    margin: auto;
+    margin-top: 20px;
+    padding:10px;
+    border: none;
+    border-radius:6px;
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+    background-color:red;
+    cursor: pointer;
+    width:80px;
+}
+h1{
+    text-align:center;
+}
+h2{
+    position:absolute;
+    top:20px;
+    left:40px;
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    background-color: transparent;
+    color:white;
+}
+a{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    
+}
